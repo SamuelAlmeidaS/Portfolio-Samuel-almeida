@@ -1,0 +1,7 @@
+@media screen and (min-width: 940px){
+    header  {
+        background: black;
+        width: 100%;
+        margin: auto;
+    }
+}
