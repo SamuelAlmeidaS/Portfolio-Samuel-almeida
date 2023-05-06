@@ -10,6 +10,10 @@
     --color-second: #e6e6e6;
 }
 
+body {
+    width: 100vw;
+}
+
 .patterns {
     height: 4.5rem;
     background-color: var(--color-principal);
@@ -161,4 +165,23 @@ section {
 
 footer {
     margin-top: 20px;
+}
+
+@media screen and (max-width: 950px){
+    .container__home {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+
+    .img__profile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-card {
+        grid-template-columns: 1fr 1fr;
+    }
 }
