@@ -15,12 +15,27 @@ body {
 }
 
 .patterns {
+    width: 85%;
+    background-color: #FFF;
     height: 4.5rem;
-    background-color: var(--color-principal);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    color: #FFF;
+}
+
+
+.patterns nav ul {
+    display: flex;
+}
+
+.patterns nav ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+.patterns nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
 }
 
 .section { 
@@ -47,7 +62,7 @@ body {
 .img {
     width: 200px;
     height: 200px;
-    background-image: url('/assets/img/minha\ foto.jpg');
+    background-image: url('/assets/img/minha/foto.jpg');
     background-position: center;
     background-size: cover;
     border-radius: 5px;
