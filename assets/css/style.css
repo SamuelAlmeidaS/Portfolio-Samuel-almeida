@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -21,8 +20,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 80px;
 }
-
 
 .patterns nav ul {
     display: flex;
@@ -40,7 +39,6 @@ body {
 
 .section { 
     display: flex;
-    justify-content: start;
 }
 
 .container__home {
@@ -56,7 +54,7 @@ body {
 }
 
 .about__me {
-    flex: 2;
+    flex: 1;
 }
 
 .img {
@@ -93,11 +91,11 @@ body {
     color: #4e4848;
 }
 
-
 section {
     display: flex;
-    flex-direction: column;
     min-height: 100vh;
+    width: 85%;
+    margin: auto;
 }
 
 .txt__title {
